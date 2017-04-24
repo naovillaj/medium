@@ -137,3 +137,34 @@ body{
   font-family: 'Josefin Sans';
   font-size: 27px;
 }
+
+#pie{
+  margin: 0 auto;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  border: 2px solid black;
+  background-color: white;
+
+}
+
+#divFooter{
+  margin: 0 auto;
+  position: relative;
+  width: 50%;
+  height: auto;
+  bottom: 0;
+}
+
+#siguienteCurso{
+  font-size: 10px;
+  font-family: 'Roboto';
+  position: absolute;
+  right: 20px;
+  top:10px;
+}
+
+#siguienteCurso:hover{
+  color: green;
+}

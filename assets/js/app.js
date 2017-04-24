@@ -83,4 +83,34 @@
   contenido1.setAttribute("id", "contenido1");
 
   titulo1.innerText = "Hazlo con estilo : Tipografías, iconos y sprite";
-  contenido1.innerHTML = "Te imaginas el mundo sin tipos de letra, tamaños o colores, o sin íconos, nada sería igual!!!!! Pero gracias a muchos desarrolladores y diseñadores, hoy contamos con una inimaginable gama de fuentes para nuestro desarrollo web, pero la pregunta que nos hacemos es <i>¿Existen reglas, hay mejor forma de hacerlo, no sé qué tipografía utilizar?</i> Tengo muchas preguntas y pocas respuestas!!";
+  contenido1.innerHTML = "Te imaginas el mundo sin tipos de letra, tamaños o colores, o sin íconos, nada sería igual!!!!! Pero gracias a muchos desarrolladores y diseñadores, hoy contamos con una inimaginable gama de fuentes para nuestro desarrollo web, pero la pregunta que nos hacemos es <i>¿Existen reglas, hay mejor forma de hacerlo, no sé qué tipografía utilizar?</i> Tengo muchas preguntas y pocas respuestas!!"
+  + "<br><br>La regla CSS @font-face permite definir una tipografía e importarla para su uso en una página web. Antes de su existencia se podía definir una lista de familias en orden decreciente de prioridad con la regla font-family y se utilizaría la primera que el usuario tuviera instalada en su sistema, con font-face la fuente elegida se puede descargar y utilizar sin necesidad que el usuario disponga de ella con anteriordad."
+
+
+  var footer = document.createElement("footer");
+  var divFooter = document.createElement("div");
+  var bulb = document.createElement("span");
+  var share = document.createElement("span");
+  var facebook = document.createElement("span");
+  var twitter = document.createElement("span");
+  var search = document.createElement("span");
+  var siguienteCurso = document.createElement("span");
+
+  document.body.appendChild(footer);
+  footer.appendChild(divFooter);
+  divFooter.appendChild(bulb);
+  divFooter.appendChild(share);
+  divFooter.appendChild(facebook);
+  divFooter.appendChild(twitter);
+  divFooter.appendChild(search);
+  divFooter.appendChild(siguienteCurso);
+
+  footer.setAttribute("id", "pie");
+  divFooter.setAttribute("id", "divFooter");
+  bulb.setAttribute("class", "icon-bulb");
+  share.setAttribute("class", "icon-search");
+  facebook.setAttribute("class", "icon-facebook2");
+  twitter.setAttribute("class", "icon-twitter");
+  siguienteCurso.setAttribute("id", "siguienteCurso");
+
+  siguienteCurso.innerHTML = "<strong>Siguiente Curso: </strong><br>JavaScript";

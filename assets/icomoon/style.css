@@ -33,7 +33,6 @@
 }
 .icon-heart:hover{
   color:red;
-  background-color: red;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   cursor: pointer;
@@ -54,9 +53,27 @@
 
 .icon-search:before {
   content: "\e902";
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  top:10px;
 }
+
+.icon-search:hover {
+  color: blue;
+}
+
 .icon-bulb:before {
   content: "\e904";
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  left:40px;
+  top:10px;
+}
+
+.icon-bulb:hover {
+  color: yellow;
 }
 .icon-music:before {
   content: "\e903";
@@ -72,10 +89,34 @@
 
 .icon-share2:before {
   content: "\ea82";
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  left: 60px;
+  top:10px;
 }
 .icon-facebook2:before {
   content: "\ea91";
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  right: 150px;
+  top:10px;
+
+}
+
+.icon-facebook2:hover {
+  color: blue;
 }
 .icon-twitter:before {
   content: "\ea96";
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  right: 110px;
+  top:10px;
+}
+
+.icon-twitter:hover {
+  color: #98ABC9;
 }
