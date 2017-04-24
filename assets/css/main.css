@@ -1,0 +1,139 @@
+body{
+  margin: 0 auto;
+}
+
+#encabezado{
+  width: 100%;
+  margin: 0 auto;
+  background-color: #02B875;
+}
+
+#divHeader{
+  margin: 0 auto;
+  width: 80%;
+  height: 70px;
+  position: relative;
+  top: 15px;
+}
+
+#divByN{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+}
+
+#byn{
+  width: 40px;
+  height: 40px;
+  border-radius: 30%
+}
+
+#divCoder{
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  left: 60px;
+}
+
+#coder{
+  width: 80px;
+  height: 40px;
+  border-radius: 8%;
+}
+
+#divImagenFoto{
+  width: 80px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  right: 40px;
+}
+
+#imgImagenFoto{
+  width: 50px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#seccionNombre{
+  margin: 0 auto;
+  width: 100%;
+  height: 100px;
+}
+
+#divContenedorSeccion{
+  margin:0 auto;
+  position: relative;
+  width: 70%;
+  height: auto;
+  top:15px;
+}
+
+#divImagen2{
+  position: absolute;
+  width: 40px;
+  height: 35px;
+  border-radius: 50%;
+  left: 120px;
+}
+
+#foto2{
+  width: 80px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+#contenedorNombre{
+  position: absolute;
+  left: 150px;
+  width: 700px;
+  height: auto;
+}
+
+#nombre{
+  font-size: 25px;
+  font-family: 'Josefin Sans';
+  position: absolute;
+  left: 70px;
+
+}
+
+#descripcion{
+  color: #ACBBA8;
+  font-size: 18px;
+  font-family: 'Ranga';
+  position: absolute;
+  left: 70px;
+  top:35px;
+}
+
+#seccion2{
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+#articuloSeccion2{
+  margin: 0 auto;
+  width: 55%;
+  height: auto;
+  position: relative;
+}
+
+#titulo1{
+  position: absolute;
+  left: 40px;
+  font-family: 'Pacifico';
+  font-size: 37px;
+}
+
+#contenido1{
+  position: absolute;
+  color: #9B6F54;
+  left: 40px;
+  top: 100px;
+  font-family: 'Josefin Sans';
+  font-size: 27px;
+}
